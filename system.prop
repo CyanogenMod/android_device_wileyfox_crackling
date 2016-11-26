@@ -1,2 +1,7 @@
 # Latest hardware revision supported
 ro.product.model.platform=1
+
+# OEM props
+import /oem/oem.prop ro.product.name
+import /oem/oem.prop ro.product.manufacturer
+import /oem/oem.prop ro.product.model
