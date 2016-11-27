@@ -1,9 +1,22 @@
 [
   {
-    "repository": "android_device_cyanogen_msm8916-common",
-    "target_path": "device/cyanogen/msm8916-common"
-  },{
-    "repository": "android_kernel_cyanogen_msm8916",
-    "target_path": "kernel/cyanogen/msm8916"
+    "repository": "CyanogenMod/android_device_cyanogen_msm8916-common",
+    "target_path": "device/cyanogen/msm8916-common",
+    "branch": "cm-14.1"
+  },
+{
+    "repository": "Wileyfox-Swift/android_kernel_cyanogen_msm8916",
+    "target_path": "kernel/cyanogen/msm8916",
+    "branch": "cm-14.1"
+  },
+{
+    "repository": "CyanogenMod/android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "branch": "cm-14.1"
+  },
+{
+    "repository": "Wileyfox-Swift/proprietary_vendor_wileyfox",
+    "target_path": "vendor/wileyfox",
+    "branch": "cm-14.1"
   }
 ]

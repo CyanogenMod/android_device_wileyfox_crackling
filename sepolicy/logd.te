@@ -1,0 +1,3 @@
+allow logd devpts:chr_file { read write };
+allow logd untrusted_app_devpts:chr_file { read write };
+allow logd init:fifo_file { read write };

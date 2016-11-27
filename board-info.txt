@@ -1,1 +1,1 @@
-require board=CRACKLING
+require board=MSM8916

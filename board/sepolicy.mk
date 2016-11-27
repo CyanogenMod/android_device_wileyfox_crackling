@@ -1,3 +1,3 @@
 # SELinux
 BOARD_SEPOLICY_DIRS += \
-    device/wileyfox/crackling/sepolicy
+    device/google/seed/sepolicy

@@ -23,4 +23,10 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 # Include package config fragments
 include $(LOCAL_PATH)/product/*.mk
 
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=crackling \
+    BUILD_FINGERPRINT=wileyfox/crackling_l8150/crackling:7.0/NRD91J/3306052:user/release-keys \
+    PRIVATE_BUILD_DESC="crackling_l8150-user 7.0 NRD91J 3306052 release-keys"
+
 $(call inherit-product-if-exists, vendor/wileyfox/crackling/crackling-vendor.mk)

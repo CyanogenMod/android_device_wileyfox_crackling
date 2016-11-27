@@ -1,0 +1,13 @@
+# Data file accesses.
+allow perfd mpctl_data_file:dir create_dir_perms;
+
+# Socket creation under /data/misc/perfd
+type_transition perfd mpctl_data_file:sock_file mpctl_socket;
+allow perfd mpctl_socket:dir rw_dir_perms;
+allow perfd mpctl_socket:sock_file create_file_perms;
+
+allow perfd sysfs_performance:dir search;
+allow perfd sysfs_performance:file rw_file_perms;
+
+allow perfd sysfs_thermal:dir search;
+allow perfd sysfs_thermal:file rw_file_perms;
